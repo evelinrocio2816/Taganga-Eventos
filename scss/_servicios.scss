@@ -1,0 +1,128 @@
+ /*nuestros servicios..*/
+
+ .parrafo-servicio {
+    color: beige;
+    font-size: 30px;
+    font-family: 'teko', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-right: 30px;
+  }
+  
+  .foto-servicios {
+    width: 350px;
+    height: 300px;
+    border-bottom: 3px double yellowgreen;
+    border-top: 5px double yellowgreen;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  
+  .delibery {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+    padding-top: 30px;
+    margin-left: 10%;
+  }
+  
+  .mapa {
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 18%;
+  }
+  
+ 
+  
+  .contactos-servicios {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
+    border: 2px dotted lightblue;
+  }
+  
+  .listaFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+@media(min-width:768px){
+    
+ .parrafo-servicio {
+    color: beige;
+    font-size: 30px;
+    font-family: 'teko', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+  
+  .foto-servicios {
+    width: 600px;
+    height: 300px;
+    border-bottom: 3px double yellowgreen;
+    border-top: 3px double yellowgreen;
+    margin-left: 12%;
+    margin-top: 30px;
+  }
+  
+  .delibery {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+    padding-top: 30px;
+    margin-left: 10%;
+  }
+  
+  .mapa {
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+  }
+  
+ 
+  
+  .contactos-servicios {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
+    border: 2px dotted lightblue;
+  }
+  
+  .listaFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media(min-width:1024px){
+  .foto-servicios {
+    width: 600px;
+    height: 300px;
+    border-bottom: 3px double yellowgreen;
+    border-top: 3px double yellowgreen;
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+}

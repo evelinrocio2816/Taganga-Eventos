@@ -1,0 +1,123 @@
+ /* todo sobre nosotros..*/
+
+ .parrafo-uno {
+    color: beige;
+    font-size: 30px;
+    padding: 70px 70px 70px 70px;
+    font-family: "teko", sans-serif;
+    margin-left: 20px;
+  }
+  
+  .boton-nosotros {
+    padding: 30px 30px 30px 30px;
+    margin-left: 20%; 
+    .btn {
+      width: 130px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+     &:hover {
+    transform: scale(1);
+    color: black;
+  }
+  }
+ 
+  }
+  .mesas-catering {
+    width: 350px;
+    height: 300px;
+    border: 5px solid yellow;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 17%;
+  }
+  .envios-nosotros{
+      color: antiquewhite;
+      font-size: 30px;
+      padding-left: 10px;
+      margin-bottom: 30px;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: 'teko';
+      &:hover{
+        background-color: bisque;
+        color: black;
+      }
+  }
+  
+  .parrafo-nosotros {
+    color: bisque;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px double red;
+  }
+@media(min-width:768px){
+  .boton-nosotros {
+    padding: 30px 30px 30px 30px;
+    margin-left: 30%; 
+    .btn {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+     &:hover {
+    transform: scale(1);
+    color: black;
+  }
+  }
+ }
+}
+ 
+.mesas-catering {
+  width: 320px;
+  height: 300px;
+  border: 5px solid yellow;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+}
+.envios-nosotros{
+  color: antiquewhite;
+  font-size: 30px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  margin-left: 25%;
+  margin-right: 10%;
+  font-family: 'teko';
+  &:hover{
+    background-color: bisque;
+    color: black;
+  }
+}
+.parrafo-nosotros {
+  color: bisque;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px double red;
+}
+
+ @media(min-width:1024px){
+    .envios-nosotros{
+        color: antiquewhite;
+        font-size: 30px;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        margin-left: 20%;
+        margin-right: 30%;
+        font-family: 'teko';
+        &:hover{
+          background-color: bisque;
+          color: black;
+        }
+     }
+    }
+   

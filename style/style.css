@@ -1,0 +1,1400 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=BenchNine:wght@300&family=Nanum+Gothic:wght@700&family=Noto+Sans+JP&family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Oleo+Script+Swash+Caps&family=Oswald&family=Overpass:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@600&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+#grilla {
+  width: 100%;
+  height: 100vh;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+header {
+  grid-area: header;
+  background-color: black;
+}
+
+main {
+  grid-area: main;
+  background-color: black;
+}
+
+footer {
+  grid-area: footer;
+  background-color: black;
+}
+
+nav {
+  grid-area: nav;
+  background-color: darkkhaki;
+}
+
+/*estilos */
+.header-uno {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.icon-header {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.icon-header .p-icon {
+  color: antiquewhite;
+  font-family: "teko", sans-serif;
+  font-size: 20px;
+  padding-right: 10px;
+  margin-left: 0%;
+}
+
+.fotoInicio {
+  margin-left: 25%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+ul li {
+  list-style-type: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Teko", sans-serif;
+}
+ul li a:hover {
+  color: crimson;
+  transition: all 2s;
+  transform: scale(2);
+}
+
+h1 {
+  display: flex;
+  flex-direction: row;
+  color: beige;
+  font-family: "BenchNine";
+  font-size: 25px;
+  margin-top: 30px;
+  margin-right: 20%;
+  margin-left: 20%;
+  padding-left: 30px;
+  border: 5px groove yellowgreen;
+  background-color: black;
+}
+h1:hover {
+  transition: all 2s;
+  transform: scale(1);
+  background-color: white;
+  font-family: "BenchNine";
+  color: black;
+}
+
+main {
+  background-image: url(../img/214373348_534097318008665_7287868255112452351_n.jpg);
+  background-position: bottom;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.main-index {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.main-index .fotoIndex {
+  margin-left: 20%;
+  border: 4px solid red;
+}
+
+.parrafo-index {
+  padding-top: 20px;
+  margin-right: 18%;
+  margin-left: 12%;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+}
+.parrafo-index:hover {
+  background-color: #ffe4c4;
+  color: #000000;
+}
+
+.listaFooter {
+  display: flex;
+  flex-direction: column;
+}
+.listaFooter .footer-index {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  color: bisque;
+  font-family: "teko", sans-serif;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.listaFooter .footer-index:hover {
+  color: crimson;
+}
+
+.contenedor-boton {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 65%;
+}
+.contenedor-boton:hover {
+  background-color: #000000;
+}
+
+.boton {
+  width: 60px;
+  transition: ease 1s;
+  color: #ffe4c4;
+  font-size: 30px;
+  font-family: "teko" sans-serif;
+}
+
+@media (min-width: 768px) {
+  .header-uno {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  .header-uno .icon-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .header-uno .icon-header .p-icon {
+    color: antiquewhite;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left: 0%;
+  }
+
+  .fotoInicio {
+    margin-left: 0%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+  }
+  ul li a:hover {
+    color: crimson;
+    transition: all 2s;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 30px;
+    padding-top: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 30px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+  }
+  h1:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+
+  main {
+    background-image: url(../img/214373348_534097318008665_7287868255112452351_n.jpg);
+    background-position: bottom;
+  }
+
+  .index {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .main-index {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .main-index .fotoIndex {
+    margin-left: 10%;
+    border: 4px solid red;
+  }
+  .main-index .fotoIndex .parrafo-index {
+    padding-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+  }
+  .main-index .fotoIndex .parrafo-index:hover {
+    background-color: #ffe4c4;
+    color: #000000;
+  }
+
+  .listaFooter {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-index {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    color: bisque;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .footer-index:hover {
+    transition: all 2s;
+    color: crimson;
+  }
+}
+.contenedor-boton {
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 80%;
+}
+.contenedor-boton:hover {
+  background-color: #000000;
+}
+
+.boton {
+  width: 60px;
+  transition: ease 1s;
+  color: #ffe4c4;
+  font-size: 30px;
+  font-family: "teko";
+}
+
+@media (min-width: 1024px) {
+  .header-uno {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  .header-uno .icon-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .header-uno .icon-header .p-icon {
+    color: antiquewhite;
+    font-family: "teko", sans-serif;
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left: 0%;
+  }
+
+  .fotoInicio {
+    margin-left: 0%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+  }
+  ul li a:hover {
+    color: crimson;
+    transition: all 2s;
+  }
+
+  h1 {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 30px;
+    padding-top: 10px 10px 10px 10px;
+    margin-top: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-left: 30px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+  }
+  h1:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+
+  main {
+    background-image: url(../img/214373348_534097318008665_7287868255112452351_n.jpg);
+    background-position: bottom;
+  }
+
+  .index {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .main-index {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .main-index .fotoIndex {
+    margin-left: 10%;
+    border: 4px solid red;
+  }
+  .main-index .fotoIndex .parrafo-index {
+    padding-top: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+  }
+  .main-index .fotoIndex .parrafo-index:hover {
+    background-color: #ffe4c4;
+    color: #000000;
+  }
+
+  .listaFooter {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-index {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    color: bisque;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .footer-index:hover {
+    transition: all 2s;
+    color: crimson;
+  }
+}
+.contenedor-boton {
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 85%;
+}
+.contenedor-boton:hover {
+  background-color: #000000;
+}
+
+.boton {
+  width: 60px;
+  transition: ease 1s;
+  color: #ffe4c4;
+  font-size: 30px;
+  font-family: "teko";
+}
+
+/*contactos.. */
+.banner {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: red;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.banner .banner:hover {
+  transition: all 2s;
+  transform: scale(1);
+  color: gold;
+}
+
+.title-contact {
+  display: flex;
+  flex-direction: row;
+  color: beige;
+  font-family: "BenchNine";
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 15%;
+  padding-left: 70px;
+  border: 5px groove yellowgreen;
+  background-color: black;
+}
+.title-contact:hover {
+  transition: all 2s;
+  transform: scale(1);
+  background-color: white;
+  font-family: "BenchNine";
+  color: black;
+}
+
+.p-contacto {
+  font-size: 30px;
+  padding-left: 50px;
+  font-family: "Teko", sans-serif;
+}
+
+input {
+  color: black;
+  font-family: "teko", sans-serif;
+  font-size: 25px;
+  height: 50px;
+  border: 3px solid rgb(10, 180, 237);
+  font-weight: bold;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+article .form-contact {
+  display: flex;
+  flex-direction: column;
+}
+article .form-contact .form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+}
+
+.article-dos {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-tres {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.boton-contacto {
+  margin-left: 15%;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.nada {
+  width: 400px;
+  color: black;
+  font-weight: bolder;
+  border: 2px solid gray;
+  margin-left: 30%;
+  font-family: "Teko", sans-serif;
+  font-size: 25px;
+}
+
+textarea {
+  height: 150px;
+  border: 4px solid red;
+  font-size: 20px;
+}
+
+.contenedor-boton {
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 65%;
+}
+.contenedor-boton:hover {
+  background-color: #000000;
+}
+
+.boton {
+  width: 60px;
+  transition: ease 1s;
+  color: #ffe4c4;
+  font-size: 30px;
+  font-family: "teko" sans-serif;
+}
+
+@media (min-width: 768px) {
+  .title-contact {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 20%;
+    padding-left: 70px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+  }
+  .title-contact:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+
+  .p-contacto {
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: "Teko", sans-serif;
+  }
+
+  input {
+    width: 100px;
+    color: black;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    height: 50px;
+    border: 3px solid rgb(10, 180, 237);
+    font-weight: bold;
+  }
+
+  .boton-contacto {
+    margin-left: 25%;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  article .form-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  article .form-contact .form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+  }
+
+  .article-dos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-tres {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+
+  textarea {
+    height: 150px;
+    border: 4px solid red;
+    font-size: 20px;
+    margin-left: 10px 20px 10px 20px;
+  }
+}
+.contenedor-boton {
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 80%;
+}
+.contenedor-boton:hover {
+  background-color: #000000;
+}
+
+.boton {
+  width: 60px;
+  transition: ease 1s;
+  color: #ffe4c4;
+  font-size: 30px;
+  font-family: "teko";
+}
+
+@media (min-width: 1024px) {
+  .title-contact {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 35%;
+    padding-left: 70px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+  }
+  .title-contact:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+
+  .p-contacto {
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: "Teko", sans-serif;
+  }
+
+  input {
+    width: 180px;
+    color: black;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    height: 50px;
+    border: 3px solid rgb(10, 180, 237);
+    font-weight: bold;
+  }
+
+  .boton-contacto {
+    margin-left: 35%;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  article .form-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  article .form-contact .form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+  }
+
+  .article-dos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-tres {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+
+  textarea {
+    height: 150px;
+    border: 4px solid red;
+    font-size: 20px;
+    margin-left: 10px 20px 10px 20px;
+  }
+}
+/*menu..*/
+h2 {
+  color: #ffe4c4;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "teko" sans-serif;
+  margin-top: 50px;
+  padding-left: 30%;
+  padding-right: 20%;
+  padding-bottom: 60px;
+}
+
+.lista {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  list-style-type: disc;
+}
+.lista:hover {
+  background-color: #000000;
+}
+
+.menu--uno {
+  display: flex;
+  flex-direction: column;
+}
+
+.nuestros-platos {
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 50px;
+}
+
+.platos {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 10px 10px;
+  border: 4px outset white;
+}
+.platos:hover {
+  transition: all 2s;
+  transform: scale(1.5);
+}
+
+.menu--dos {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.pizzas {
+  width: 180px;
+  height: 170px;
+  margin-top: 10px;
+  border: 4px outset white;
+}
+.pizzas:hover {
+  transition: all 2s;
+  transform: scale(1.5);
+}
+
+.menu--tres {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.menu-picadas {
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.picadas {
+  width: 150px;
+  height: 150px;
+  margin-left: 45px;
+  border-radius: 0px;
+  border: 5px outset white;
+  margin-bottom: 30px;
+}
+.picadas:hover {
+  transition: all 1s;
+  transform: scale(1.5);
+}
+
+.menu--cuatro {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.menu--cuatro .menuPastas {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "teko", sans-serif;
+  font-size: 25px;
+  padding-right: 80px;
+}
+
+.nuestrasPastas {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0%;
+}
+
+.pastas {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 10px 10px;
+  border: 4px outset white;
+}
+
+.correo-menu {
+  color: bisque;
+  font-size: 25px;
+  font-family: "teko", sans-serif;
+  margin-left: 22%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  h2 {
+    color: #ffe4c4;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "teko" sans-serif;
+    margin-top: 50px;
+    padding-left: 35%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+  }
+
+  .lista {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    list-style-type: disc;
+  }
+  .lista:hover {
+    background-color: #000000;
+  }
+
+  .menu--uno {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nuestros-platos {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  .platos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+  .platos:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+
+  .menu--dos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+  }
+
+  .pizzas {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+  .pizzas:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+
+  .menu--tres {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
+  }
+
+  .picadas {
+    width: 150px;
+    height: 150px;
+    margin-left: 45px;
+    border-radius: 0px;
+    border: 5px outset white;
+    margin-bottom: 30px;
+  }
+
+  .picadas:hover {
+    transition: all 1s;
+    transform: scale(2);
+  }
+
+  .menu-picadas {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .menu--cuatro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+
+  .menuPastas {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    padding-right: 50px;
+  }
+
+  .nuestrasPastas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+  }
+
+  .pastas {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+
+  .correo-menu {
+    color: bisque;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  h2 {
+    color: #ffe4c4;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "teko" sans-serif;
+    margin-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+  }
+
+  .lista {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    list-style-type: disc;
+  }
+
+  .lista:hover {
+    background-color: #000000;
+  }
+
+  .menu--uno {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nuestros-platos {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  .platos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+
+  .platos:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+
+  .menu--dos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+
+  .pizzas {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+
+  .pizzas:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+
+  .menu--tres {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
+  }
+
+  .picadas {
+    width: 150px;
+    height: 150px;
+    margin-left: 45px;
+    border-radius: 0px;
+    border: 5px outset white;
+    margin-bottom: 30px;
+  }
+
+  .picadas:hover {
+    transition: all 1s;
+    transform: scale(2);
+  }
+
+  .menu-picadas {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+
+  .menu--cuatro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+
+  .menuPastas {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    padding-right: 50px;
+  }
+
+  .nuestrasPastas {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+  }
+
+  .pastas {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+
+  .correo-menu {
+    color: bisque;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+  }
+}
+/* todo sobre nosotros..*/
+.parrafo-uno {
+  color: beige;
+  font-size: 30px;
+  padding: 70px 70px 70px 70px;
+  font-family: "teko", sans-serif;
+  margin-left: 20px;
+}
+
+.boton-nosotros {
+  padding: 30px 30px 30px 30px;
+  margin-left: 20%;
+}
+.boton-nosotros .btn {
+  width: 130px;
+  background-color: lightskyblue;
+  color: white;
+  font-size: 25px;
+  font-family: "teko", sans-serif;
+}
+.boton-nosotros .btn:hover {
+  transform: scale(1);
+  color: black;
+}
+
+.mesas-catering {
+  width: 350px;
+  height: 300px;
+  border: 5px solid yellow;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 17%;
+}
+
+.envios-nosotros {
+  color: antiquewhite;
+  font-size: 30px;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "teko";
+}
+.envios-nosotros:hover {
+  background-color: bisque;
+  color: black;
+}
+
+.parrafo-nosotros {
+  color: bisque;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px double red;
+}
+
+@media (min-width: 768px) {
+  .boton-nosotros {
+    padding: 30px 30px 30px 30px;
+    margin-left: 30%;
+  }
+  .boton-nosotros .btn {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+  }
+  .boton-nosotros .btn:hover {
+    transform: scale(1);
+    color: black;
+  }
+}
+.mesas-catering {
+  width: 320px;
+  height: 300px;
+  border: 5px solid yellow;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5%;
+}
+
+.envios-nosotros {
+  color: antiquewhite;
+  font-size: 30px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  margin-left: 25%;
+  margin-right: 10%;
+  font-family: "teko";
+}
+.envios-nosotros:hover {
+  background-color: bisque;
+  color: black;
+}
+
+.parrafo-nosotros {
+  color: bisque;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px double red;
+}
+
+@media (min-width: 1024px) {
+  .envios-nosotros {
+    color: antiquewhite;
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 30%;
+    font-family: "teko";
+  }
+  .envios-nosotros:hover {
+    background-color: bisque;
+    color: black;
+  }
+}
+/*nuestros servicios..*/
+.parrafo-servicio {
+  color: beige;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  padding-right: 30px;
+}
+
+.foto-servicios {
+  width: 350px;
+  height: 300px;
+  border-bottom: 3px double yellowgreen;
+  border-top: 5px double yellowgreen;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.delibery {
+  color: antiquewhite;
+  font-size: 30px;
+  font-family: "teko", sans-serif;
+  padding-top: 30px;
+  margin-left: 10%;
+}
+
+.mapa {
+  width: 300px;
+  height: 200px;
+  border: 3px solid red;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 18%;
+}
+
+.contactos-servicios {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 30px 30px 30px 30px;
+  margin: 30px 30px 30px 30px;
+  border: 2px dotted lightblue;
+}
+
+.listaFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .parrafo-servicio {
+    color: beige;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+  }
+
+  .foto-servicios {
+    width: 600px;
+    height: 300px;
+    border-bottom: 3px double yellowgreen;
+    border-top: 3px double yellowgreen;
+    margin-left: 12%;
+    margin-top: 30px;
+  }
+
+  .delibery {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: "teko", sans-serif;
+    padding-top: 30px;
+    margin-left: 10%;
+  }
+
+  .mapa {
+    width: 300px;
+    height: 200px;
+    border: 3px solid red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+  }
+
+  .contactos-servicios {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
+    border: 2px dotted lightblue;
+  }
+
+  .listaFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .foto-servicios {
+    width: 600px;
+    height: 300px;
+    border-bottom: 3px double yellowgreen;
+    border-top: 3px double yellowgreen;
+    margin-left: 20%;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

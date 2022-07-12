@@ -1,0 +1,359 @@
+ /*menu..*/
+ h2 {
+    color: #ffe4c4;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "teko" sans-serif;
+    margin-top: 50px;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+  }
+  .lista{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    list-style-type: disc;
+    &:hover{
+  background-color: #000000;
+ }
+ }
+ 
+  .menu--uno {
+    display: flex;
+    flex-direction: column;
+  }
+  .nuestros-platos {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+  
+  .platos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+    &:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+  }
+  }
+  
+  
+  .menu--dos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .pizzas {
+    width: 180px;
+    height: 170px;
+    margin-top: 10px;
+    border: 4px outset white;
+    &:hover {
+    transition: all 2s;
+    transform: scale(1.5);
+  }
+  }
+  .menu--tres {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 0px;
+  }
+  .menu-picadas {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  
+  .picadas {
+    width: 150px;
+    height: 150px;
+    margin-left: 45px;
+    border-radius: 0px;
+    border: 5px outset white;
+    margin-bottom: 30px;
+    &:hover {
+    transition: all 1s;
+    transform: scale(1.5);
+  }
+  }
+   
+  .menu--cuatro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    .menuPastas {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "teko", sans-serif;
+    font-size: 25px;
+    padding-right: 80px;
+  }
+  }
+  
+  .nuestrasPastas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+  }
+  .pastas{
+  
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+  .correo-menu {
+    color: bisque;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+    margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+  }
+
+
+
+
+
+ @media(min-width:768px){
+ h2 {
+    color: #ffe4c4;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "teko" sans-serif;
+    margin-top: 50px;
+    padding-left: 35%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+  }
+  .lista{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    list-style-type: disc;
+    &:hover{
+  background-color: #000000;
+ }
+ }
+ 
+  .menu--uno {
+    display: flex;
+    flex-direction: row;
+  }
+  .nuestros-platos {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 40px;
+  }
+  
+  .platos {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+     &:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+  }
+ 
+  
+  .menu--dos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+  }
+  .pizzas {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+     &:hover {
+    transition: all 2s;
+    transform: scale(1);
+  }
+  }
+ 
+  
+  .menu--tres {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-right: 70px;
+  }
+  .picadas {
+    width: 150px;
+    height: 150px;
+    margin-left: 45px;
+    border-radius: 0px;
+    border: 5px outset white;
+    margin-bottom: 30px;
+  }
+  .picadas:hover {
+    transition: all 1s;
+    transform: scale(2);
+  }
+  
+  .menu-picadas {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  
+  .menu--cuatro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+  }
+  .menuPastas {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "teko", sans-serif;
+    font-size: 30px;
+    padding-right: 50px;
+  }
+  .nuestrasPastas{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+  }
+  .pastas{
+  
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 4px outset white;
+  }
+  .correo-menu {
+    color: bisque;
+    font-size: 25px;
+    font-family: "teko", sans-serif;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+  }
+ }
+ @media(min-width:1024px){
+    h2 {
+        color: #ffe4c4;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: "teko" sans-serif;
+        margin-top: 50px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 60px;
+      }
+      .lista{
+        padding-top: 1px;
+        padding-bottom: 1px;
+        list-style-type: disc;
+     }
+     .lista:hover{
+      background-color: #000000;
+     }
+      .menu--uno {
+        display: flex;
+        flex-direction: row;
+      }
+      .nuestros-platos {
+        color: aliceblue;
+        font-size: 25px;
+        margin-left: 50px;
+      }
+      
+      .platos {
+        width: 150px;
+        height: 150px;
+        margin: 10px 10px 10px 10px;
+        border: 4px outset white;
+      }
+      .platos:hover {
+        transition: all 2s;
+        transform: scale(1);
+      }
+      
+      .menu--dos {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+      }
+      .pizzas {
+        width: 150px;
+        height: 150px;
+        margin: 10px 10px 10px 10px;
+        border: 4px outset white;
+      }
+      .pizzas:hover {
+        transition: all 2s;
+        transform: scale(1);
+      }
+      
+      .menu--tres {
+        display: flex;
+        flex-direction: row;
+        margin-left: 30px;
+        margin-right: 70px;
+      }
+      .picadas {
+        width: 150px;
+        height: 150px;
+        margin-left: 45px;
+        border-radius: 0px;
+        border: 5px outset white;
+        margin-bottom: 30px;
+      }
+      .picadas:hover {
+        transition: all 1s;
+        transform: scale(2);
+      }
+      
+      .menu-picadas {
+        color: aliceblue;
+        font-size: 25px;
+        margin-left: 30px;
+      }
+      
+      .menu--cuatro {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+      }
+      .menuPastas {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: "teko", sans-serif;
+        font-size: 30px;
+        padding-right: 50px;
+      }
+      .nuestrasPastas{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20%;
+      }
+      .pastas{
+      
+        width: 150px;
+        height: 150px;
+        margin: 10px 10px 10px 10px;
+        border: 4px outset white;
+      }
+      .correo-menu {
+        color: bisque;
+        font-size: 25px;
+        font-family: "teko", sans-serif;
+        margin-left: 35%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-right: 10px;
+      }
+     }
+ 
+ 

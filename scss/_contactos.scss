@@ -1,0 +1,306 @@
+ /*contactos.. */
+ .banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    .banner:hover {
+    transition: all 2s;
+    transform: scale(1);
+    color: gold;
+  }
+  }
+ 
+  .title-contact {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 15%;
+    padding-left: 70px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+     &:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+  }
+  .p-contacto {
+    font-size: 30px;
+    padding-left: 50px;
+    font-family: "Teko", sans-serif;
+  }
+ 
+  input {
+    color: black;
+    font-family:'teko',sans-serif;
+    font-size: 25px;
+    height: 50px;
+    border: 3px solid rgb(10, 180, 237);
+    font-weight: bold;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 40px;
+   .form-contact {
+    display: flex;
+    flex-direction: column;
+    .form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+  } 
+  }
+  }
+  
+  .article-dos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-tres {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  .boton-contacto{
+    margin-left: 15%;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .nada {
+    width: 400px;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid gray;
+    margin-left: 30%;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+  }
+  
+  textarea {
+    height: 150px;
+    border: 4px solid red;
+    font-size: 20px;
+  }
+  .contenedor-boton{
+    position: fixed;
+    z-index: 999;
+    left: 0%;
+    bottom: 10%;
+    margin-left: 65%;
+   &:hover{
+      background-color: #000000;
+     }
+  }
+  .boton{
+      width: 60px;
+      transition: ease 1s;
+      color: #ffe4c4;
+      font-size: 30px;
+      font-family: 'teko'sans-serif;
+     
+  }
+  
+  
+
+ @media(min-width:768px){
+    .title-contact {
+        display: flex;
+        flex-direction: row;
+        color: beige;
+        font-family: "BenchNine";
+        font-size: 30px;
+        margin-left: 25%;
+        margin-right: 20%;
+        padding-left: 70px;
+        border: 5px groove yellowgreen;
+        background-color: black;
+         &:hover {
+        transition: all 2s;
+        transform: scale(1);
+        background-color: white;
+        font-family: "BenchNine";
+        color: black;
+      }
+      }
+  
+  .p-contacto {
+    font-size: 30px;
+    padding-left: 40px;
+    font-family: "Teko", sans-serif;
+  }
+ 
+ 
+  
+  input {
+    width: 100px;
+    color: black;
+    font-family:'teko',sans-serif;
+    font-size: 30px;
+    height: 50px;
+    border: 3px solid rgb(10, 180, 237);
+    font-weight: bold;
+  }
+  .boton-contacto{
+    margin-left: 25%;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 40px; 
+    .form-contact {
+    display: flex;
+    flex-direction: column;
+    .form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 20px 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+  }
+ }
+}
+  
+  .article-dos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-tres {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  
+  textarea {
+    height: 150px;
+    border: 4px solid red;
+    font-size: 20px;
+    margin-left: 10px 20px 10px 20px;
+  }
+}
+.contenedor-boton{
+  position: fixed;
+  z-index: 999;
+  left: 0%;
+  bottom: 10%;
+  margin-left: 80%;
+ &:hover{
+    background-color: #000000;
+   }
+}
+.boton{
+    width: 60px;
+    transition: ease 1s;
+    color: #ffe4c4;
+    font-size: 30px;
+    font-family: 'teko';
+   
+}
+
+
+@media(min-width:1024px){
+  .title-contact {
+    display: flex;
+    flex-direction: row;
+    color: beige;
+    font-family: "BenchNine";
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 35%;
+    padding-left: 70px;
+    border: 5px groove yellowgreen;
+    background-color: black;
+     &:hover {
+    transition: all 2s;
+    transform: scale(1);
+    background-color: white;
+    font-family: "BenchNine";
+    color: black;
+  }
+  }
+
+.p-contacto {
+font-size: 30px;
+padding-left: 40px;
+font-family: "Teko", sans-serif;
+}
+
+
+
+input {
+width: 180px;
+color: black;
+font-family:'teko',sans-serif;
+font-size: 30px;
+height: 50px;
+border: 3px solid rgb(10, 180, 237);
+font-weight: bold;
+}
+.boton-contacto{
+margin-left: 35%;
+width: 300px;
+margin-bottom: 20px;
+}
+article {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+margin-right: 20px;
+margin-left: 40px; 
+.form-contact {
+display: flex;
+flex-direction: column;
+.form {
+color: white;
+display: flex;
+flex-direction: column;
+padding: 20px 15px 20px 15px;
+margin-top: 10px;
+font-size: 20px;
+font-family: "Teko", sans-serif;
+}
+}
+}
+
+.article-dos {
+display: flex;
+flex-direction: column;
+}
+
+.article-tres {
+display: flex;
+flex-direction: row;
+justify-items: center;
+}
+
+textarea {
+height: 150px;
+border: 4px solid red;
+font-size: 20px;
+margin-left: 10px 20px 10px 20px;
+}
+}
