@@ -177,9 +177,6 @@ main {
 .boton {
   width: 60px;
   transition: ease 1s;
-  color: #ffe4c4;
-  font-size: 30px;
-  font-family: "teko" sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -463,9 +460,6 @@ main {
 .boton {
   width: 60px;
   transition: ease 1s;
-  color: #ffe4c4;
-  font-size: 30px;
-  font-family: "teko";
 }
 
 /*contactos.. */
@@ -587,9 +581,6 @@ textarea {
 .boton {
   width: 60px;
   transition: ease 1s;
-  color: #ffe4c4;
-  font-size: 30px;
-  font-family: "teko" sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -688,9 +679,6 @@ textarea {
 .boton {
   width: 60px;
   transition: ease 1s;
-  color: #ffe4c4;
-  font-size: 30px;
-  font-family: "teko";
 }
 
 @media (min-width: 1024px) {
